@@ -23,7 +23,7 @@
 
 .top-temp{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   flex:1;
   
@@ -50,6 +50,8 @@
 
 .top-time{
   flex:1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .remove-line{
